@@ -5,8 +5,9 @@ function descripcion(){
         strings: ['<p class="descripcion">Hola ' + localStorage.getItem('nombre') +  ', espero estes muy bien, mi nombre es Leonel, soy programador web en proceso de formación constante, espero poder sorprenderte con algunos conocimientos que fui adquiriendo con el tiempo, espero te guste.</p>'],
         typeSpeed: 30,
         showCursor: false,
-       loop: false
-      });
+        loop: false,
+        
+      },);
 }
 
 

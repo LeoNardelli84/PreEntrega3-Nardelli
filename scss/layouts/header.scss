@@ -7,28 +7,35 @@
     align-items: center;
 }
 .menu{
+    animation-duration: 2s;
     position: absolute;
     border-radius: 50%;
-    top: 20px;
+    top: 40px;
     background-color: $color-primario;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    i{
+        font-size: 40px;
+        color: $color-footer;
+    }
 }
 .menu-izquierda{
     @extend .menu;
-    left: 5px;    
-    i{
-        font-size: 50px;
-    }
+    left: 5px; 
+    
 }
+//menu desplegable izquierda
+#menu-izq, #menu-der{
+    background-color: $color-secundario;
+    width: 85vw;
+}
+
+
 .menu-derecha{
     @extend .menu;
     right: 5px;
-    i{
-        font-size: 50px;
-    }
 }
 .img-header{
     background-color: $color-primario;
@@ -40,6 +47,7 @@
     width: 100vw;
     height: 100px;
     img{
+        background-color: $color-primario;
         width: 180px;
         border-radius: 50%;
         border: 10px solid $color-primario;

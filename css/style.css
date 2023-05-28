@@ -29,28 +29,32 @@ p {
 }
 
 .menu, .menu-derecha, .menu-izquierda {
+  animation-duration: 2s;
   position: absolute;
   border-radius: 50%;
-  top: 20px;
+  top: 40px;
   background-color: #2C8FB6;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
+}
+.menu i, .menu-derecha i, .menu-izquierda i {
+  font-size: 40px;
+  color: #2E2E3a;
 }
 
 .menu-izquierda {
   left: 5px;
 }
-.menu-izquierda i {
-  font-size: 50px;
+
+#menu-izq, #menu-der {
+  background-color: #A9DEF9;
+  width: 85vw;
 }
 
 .menu-derecha {
   right: 5px;
-}
-.menu-derecha i {
-  font-size: 50px;
 }
 
 .img-header {
@@ -64,6 +68,7 @@ p {
   height: 100px;
 }
 .img-header img {
+  background-color: #2C8FB6;
   width: 180px;
   border-radius: 50%;
   border: 10px solid #2C8FB6;
