@@ -1,0 +1,89 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+h1 {
+  font-family: "Roboto";
+}
+
+p {
+  font-family: "Open Sans";
+}
+
+.header {
+  background-color: white;
+  height: 200px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu, .menu-derecha, .menu-izquierda {
+  position: absolute;
+  border-radius: 50%;
+  top: 20px;
+  background-color: #2C8FB6;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-izquierda {
+  left: 5px;
+}
+.menu-izquierda i {
+  font-size: 50px;
+}
+
+.menu-derecha {
+  right: 5px;
+}
+.menu-derecha i {
+  font-size: 50px;
+}
+
+.img-header {
+  background-color: #2C8FB6;
+  border-bottom: 10px solid #2C8FB6;
+  border-top: 10px solid #2C8FB6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+}
+.img-header img {
+  width: 180px;
+  border-radius: 50%;
+  border: 10px solid #2C8FB6;
+}
+
+.nombre {
+  color: #2C8FB6;
+}
+
+.apellido {
+  color: #A9DEF9;
+}
+
+.subtitulo {
+  color: #89a3ae;
+}
+
+.descripcion {
+  padding: 15px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
