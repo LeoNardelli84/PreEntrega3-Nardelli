@@ -7,6 +7,7 @@
     align-items: center;
 }
 .menu{
+    box-shadow: 7px 7px 15px -4px $color-footer;
     animation-duration: 2s;
     position: absolute;
     border-radius: 50%;
@@ -16,6 +17,7 @@
     height: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
     i{
         font-size: 40px;
         color: $color-footer;
@@ -27,9 +29,9 @@
     
 }
 //menu desplegable izquierda
-#menu-izq, #menu-der{
+.offcanvas-start, .offcanvas-end{
     background-color: $color-secundario;
-    width: 85vw;
+    width: 85vw !important;
 }
 
 
@@ -51,5 +53,6 @@
         width: 180px;
         border-radius: 50%;
         border: 10px solid $color-primario;
+        box-shadow: 7px 7px 15px -5px $color-footer;
     }
 }

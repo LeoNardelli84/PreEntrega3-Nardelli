@@ -29,6 +29,7 @@ p {
 }
 
 .menu, .menu-derecha, .menu-izquierda {
+  box-shadow: 7px 7px 15px -4px #2E2E3a;
   animation-duration: 2s;
   position: absolute;
   border-radius: 50%;
@@ -38,6 +39,7 @@ p {
   height: 50px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .menu i, .menu-derecha i, .menu-izquierda i {
   font-size: 40px;
@@ -48,9 +50,9 @@ p {
   left: 5px;
 }
 
-#menu-izq, #menu-der {
+.offcanvas-start, .offcanvas-end {
   background-color: #A9DEF9;
-  width: 85vw;
+  width: 85vw !important;
 }
 
 .menu-derecha {
@@ -72,6 +74,7 @@ p {
   width: 180px;
   border-radius: 50%;
   border: 10px solid #2C8FB6;
+  box-shadow: 7px 7px 15px -5px #2E2E3a;
 }
 
 .nombre {
