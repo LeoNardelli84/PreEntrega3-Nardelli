@@ -26,6 +26,10 @@ p {
   font-family: "Open Sans";
 }
 
+footer {
+  background-color: aqua;
+}
+
 .header {
   background-color: white;
   height: 200px;
@@ -103,6 +107,32 @@ p {
   right: 5px;
 }
 
+.header-menu-der {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-menu-der img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.section-menu-der {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section-menu-der .video {
+  width: 100%;
+}
+.section-menu-der .video video {
+  width: 280px;
+}
+.section-menu-der p {
+  height: 220px;
+}
+
 .nombre {
   color: #2C8FB6;
 }
@@ -134,6 +164,9 @@ p {
 .tarjetas-librerias {
   width: 100vw;
 }
+.tarjetas-librerias p {
+  padding: 20px;
+}
 
 .tarjeta {
   padding: 20px;
@@ -141,7 +174,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 400px;
+  height: 300px;
 }
 .tarjeta p {
   min-height: 50px;

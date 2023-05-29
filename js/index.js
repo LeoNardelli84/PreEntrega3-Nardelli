@@ -29,7 +29,7 @@ function descripcion(){
         text: 'Como te llamas?',
         confirmButtonColor: '#2C8FB6',
         confirmButtonText: 'Entrar',
-        footer: '<p><span class="nombre">Leonel Nardelli Design</span></p> ',
+        footer: '<p><span class="nombre">Coder House - PF</span></p> ',
         grow: 'false', 
         input: 'text',
         inputPlaceholder: 'Pon tu nombre aqui',

@@ -78,9 +78,34 @@
         }
     }
 }
-// -- Menu desplegable izquierda --
+// -- Menu desplegable derecha --
 //icono
 .menu-derecha{
     @extend .menu;
     right: 5px;
+}
+.header-menu-der{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img{
+        width: 100px;
+        border-radius: 50%;
+    }
+}
+.section-menu-der{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .video{
+        width: 100%;
+        video{
+            width: 280px;
+            
+        }
+    }
+    p{
+        height: 220px;
+    }
 }

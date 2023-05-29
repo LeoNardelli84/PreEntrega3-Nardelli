@@ -15,8 +15,10 @@
 @import 'utilities/colors.scss';
 
 //layouts
+@import 'layouts/footer.scss';
 @import 'layouts/header.scss';
 @import 'layouts/presentacion.scss';
 
-//pages
+
+//pages 
 @import 'pages/librerias.scss';
