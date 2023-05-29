@@ -13,7 +13,7 @@ localStorage.clear();
 
 function descripcion(){
     var typed = new Typed('#descripcion-typed', {
-        strings: ['<p class="descripcion">Hola ' + localStorage.getItem('nombre').toUpperCase() +  ', espero estes muy bien, mi nombre es Leonel, soy programador web en proceso de formación constante, espero poder sorprenderte con algunos conocimientos que fui adquiriendo con el tiempo, espero te guste.</p>'],
+        strings: ['<p>¡Saludos ' + localStorage.getItem('nombre').toUpperCase() + ' bienvenid@ a mi CV en línea! Soy un apasionado desarrollador frontend y estoy emocionado de presentarte mi trayectoria profesional y habilidades en diseño y programación. Echa un vistazo a mi portafolio y descubre las tecnologias con las que he trabajado. Si deseas colaborar o tienes alguna consulta, ¡no dudes en contactarme! ¡Espero que disfrutes navegando por mi sitio!</p>'],
         typeSpeed: 30,
         showCursor: false,
         loop: false,
@@ -63,7 +63,7 @@ $(".ul-nav-menu>li").click(function(){
 
 
 $("#comenzar").click(function(){
-    $(location).attr('href', '../pages/librerias.html')
+    $(location).attr('href', './pages/librerias.html')
 });
 
  
