@@ -1,0 +1,22 @@
+.tarjetas-librerias{
+    width: 100vw;
+    
+}
+.tarjeta{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    p{
+        min-height: 50px;
+    }
+    img{
+        width: 200px;
+    }
+    button{
+        margin: 10px;
+        @include button-stile;
+    }
+}

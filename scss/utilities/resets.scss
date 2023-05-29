@@ -6,3 +6,11 @@
 .container-fluid{
     padding: 0px !important;
 }
+ul{
+    list-style: none;
+    li{
+        a{
+            text-decoration: none;
+        }
+    }
+}

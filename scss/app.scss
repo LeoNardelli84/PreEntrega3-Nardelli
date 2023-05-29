@@ -9,7 +9,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 //utilities
-@import 'utilities/mixin.scss';
+@import 'utilities/_mixin.scss';
 @import 'utilities/resets.scss';
 @import 'utilities/typography.scss';
 @import 'utilities/colors.scss';
@@ -18,3 +18,5 @@
 @import 'layouts/header.scss';
 @import 'layouts/presentacion.scss';
 
+//pages
+@import 'pages/librerias.scss';

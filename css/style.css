@@ -11,7 +11,14 @@
   padding: 0px !important;
 }
 
-h1 {
+ul {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto";
 }
 
@@ -46,17 +53,20 @@ p {
   color: #2E2E3a;
 }
 
-.menu-izquierda {
-  left: 5px;
-}
-
 .offcanvas-start, .offcanvas-end {
   background-color: #A9DEF9;
   width: 85vw !important;
 }
 
-.menu-derecha {
-  right: 5px;
+.header-menu-izq h2 {
+  color: #2C8FB6;
+}
+.header-menu-izq .img-menu {
+  width: 100%;
+}
+
+.menu-izquierda {
+  left: 5px;
 }
 
 .img-header {
@@ -77,6 +87,22 @@ p {
   box-shadow: 7px 7px 15px -5px #2E2E3a;
 }
 
+.nav-menu ul {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav-menu ul li {
+  width: 50%;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #2E2E3a;
+}
+
+.menu-derecha {
+  right: 5px;
+}
+
 .nombre {
   color: #2C8FB6;
 }
@@ -92,6 +118,41 @@ p {
 .descripcion {
   padding: 15px;
   text-align: center;
+}
+.descripcion p {
+  height: 300px;
+}
+
+.presentacion {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tarjetas-librerias {
+  width: 100vw;
+}
+
+.tarjeta {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+}
+.tarjeta p {
+  min-height: 50px;
+}
+.tarjeta img {
+  width: 200px;
+}
+.tarjeta button {
+  margin: 10px;
+  background-color: #89a3ae;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
