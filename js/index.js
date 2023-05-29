@@ -63,7 +63,7 @@ $(".ul-nav-menu>li").click(function(){
 
 
 $("#comenzar").click(function(){
-    $(location).attr('href', './pages/librerias.html')
+    $(location).attr('href', '../pages/librerias.html')
 });
 
  
