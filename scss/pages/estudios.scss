@@ -2,22 +2,28 @@
     padding: 20px;
 }
 
+//No se por que no me toma los @media para desktop
+//revisar
+
 .certificados{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     @media #{$desktop}{
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;    
+        flex-direction: row;
+        
     }
     img{
         margin-right: 20px;
         margin-bottom: 20px;
         box-shadow: 10px 5px 10px;
+        width: 300px;
         @media #{$desktop}{
-            
+            width: 500px !important;
         }
     }
 }

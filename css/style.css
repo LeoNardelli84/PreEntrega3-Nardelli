@@ -53,6 +53,26 @@ p {
   animation-duration: 3s;
 }
 
+.img-header {
+  background-color: #2C8FB6;
+  border-bottom: 10px solid #2C8FB6;
+  border-top: 10px solid #2C8FB6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+  animation-duration: 2s;
+}
+.img-header img {
+  background-color: #2C8FB6;
+  width: 180px;
+  border-radius: 50%;
+  border: 10px solid #2C8FB6;
+  box-shadow: 7px 7px 15px -5px #2E2E3a;
+  animation-duration: 4s;
+}
+
 .menu, .menu-derecha, .menu-izquierda {
   box-shadow: 7px 7px 15px -4px #2E2E3a;
   animation-duration: 2s;
@@ -65,6 +85,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-duration: 1s;
 }
 .menu i, .menu-derecha i, .menu-izquierda i {
   font-size: 40px;
@@ -90,24 +111,7 @@ p {
 
 .menu-izquierda {
   left: 5px;
-}
-
-.img-header {
-  background-color: #2C8FB6;
-  border-bottom: 10px solid #2C8FB6;
-  border-top: 10px solid #2C8FB6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100px;
-}
-.img-header img {
-  background-color: #2C8FB6;
-  width: 180px;
-  border-radius: 50%;
-  border: 10px solid #2C8FB6;
-  box-shadow: 7px 7px 15px -5px #2E2E3a;
+  z-index: 1;
 }
 
 .nav-menu ul {
@@ -230,6 +234,7 @@ p {
 .certificados {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 @media (min-with: 700px) {
@@ -237,14 +242,21 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 .certificados img {
   margin-right: 20px;
   margin-bottom: 20px;
   box-shadow: 10px 5px 10px;
+  width: 300px;
 }
+@media (min-with: 700px) {
+  .certificados img {
+    width: 500px !important;
+  }
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -276,6 +288,51 @@ text-area {
   margin-top: 50px;
   margin-bottom: 50px;
   background-color: #89a3ae;
+}
+
+.progress {
+  margin-bottom: 10px !important;
+  height: 35px !important;
+}
+
+.progress-bar {
+  background-color: #89a3ae;
+}
+
+.barras {
+  padding: 30px;
+}
+
+.barra-1 {
+  animation-duration: 3s;
+}
+
+.barra-2 {
+  animation-duration: 3.1s;
+}
+
+.barra-3 {
+  animation-duration: 3.2s;
+}
+
+.barra-4 {
+  animation-duration: 3.3s;
+}
+
+.barra-5 {
+  animation-duration: 3.4s;
+}
+
+.barra-6 {
+  animation-duration: 3.5s;
+}
+
+.barra-7 {
+  animation-duration: 3.6s;
+}
+
+.barra-8 {
+  animation-duration: 3.7s;
 }
 
 /*# sourceMappingURL=style.css.map */

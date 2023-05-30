@@ -8,6 +8,27 @@
     animation-duration: 3s;
 }
 
+.img-header{
+    
+    background-color: $color-primario;
+    border-bottom: 10px solid $color-primario;
+    border-top: 10px solid $color-primario;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    animation-duration: 2s;
+    img{
+        background-color: $color-primario;
+        width: 180px;
+        border-radius: 50%;
+        border: 10px solid $color-primario;
+        box-shadow: 7px 7px 15px -5px $color-footer;
+        animation-duration: 4s;
+    }
+}
+
 // -- Menu hecho con bootstrap --
 // offcanvas
 .menu{
@@ -22,6 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-duration: 1s;
     i{
         font-size: 40px;
         color: $color-footer;
@@ -50,25 +72,9 @@
 .menu-izquierda{
     @extend .menu;
     left: 5px;  
+    z-index: 1;
 }
 
-.img-header{
-    background-color: $color-primario;
-    border-bottom: 10px solid $color-primario;
-    border-top: 10px solid $color-primario;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100px;
-    img{
-        background-color: $color-primario;
-        width: 180px;
-        border-radius: 50%;
-        border: 10px solid $color-primario;
-        box-shadow: 7px 7px 15px -5px $color-footer;
-    }
-}
 .nav-menu{
     
     ul{
