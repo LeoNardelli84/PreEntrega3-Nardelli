@@ -73,7 +73,7 @@ p {
 
 .offcanvas-start .offcanvas-end {
   background-color: #A9DEF9;
-  width: 85vw !important;
+  width: 85vw;
 }
 @media (min-with: 700px) {
   .offcanvas-start .offcanvas-end {
@@ -146,7 +146,6 @@ p {
   display: flex;
   justify-content: center;
   width: 100%;
-  box-shadow: 11px 18px 35px -7px #2C8FB6;
 }
 .section-menu-der .video video {
   width: 300px;
@@ -228,14 +227,24 @@ p {
   padding: 20px;
 }
 
+.certificados {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (min-with: 700px) {
+  .certificados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .certificados img {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
+  margin-right: 20px;
   margin-bottom: 20px;
   box-shadow: 10px 5px 10px;
 }
-
 form {
   display: flex;
   flex-direction: column;

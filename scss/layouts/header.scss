@@ -30,7 +30,7 @@
 }
 .offcanvas-start .offcanvas-end{
     background-color: $color-secundario;
-    width: 85vw !important;
+    width: 85vw;
     @media #{$desktop}{
             width: 30vw;
     }
@@ -108,7 +108,6 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        box-shadow: 11px 18px 35px -7px  $color-primario;
         video{ 
             width: 300px;
          }
