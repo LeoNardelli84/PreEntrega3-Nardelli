@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 #comenzar{
-    background-color: $color-secundario;
+    @include button-stile;
     
 }
 

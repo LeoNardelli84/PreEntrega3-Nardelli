@@ -71,9 +71,14 @@ p {
   color: #2E2E3a;
 }
 
-.offcanvas-start, .offcanvas-end {
+.offcanvas-start .offcanvas-end {
   background-color: #A9DEF9;
   width: 85vw !important;
+}
+@media (min-with: 700px) {
+  .offcanvas-start .offcanvas-end {
+    width: 30vw;
+  }
 }
 
 .header-menu-izq h2 {
@@ -179,7 +184,8 @@ p {
 }
 
 #comenzar {
-  background-color: #A9DEF9;
+  background-color: #89a3ae;
+  color: white;
 }
 
 .tarjetas-librerias {
@@ -253,7 +259,6 @@ form {
 text-area {
   margin-bottom: 10px;
   text-align: center;
-  border-radius: 15px;
 }
 
 #btn-enviar {

@@ -28,10 +28,14 @@
     }
 
 }
-.offcanvas-start, .offcanvas-end{
+.offcanvas-start .offcanvas-end{
     background-color: $color-secundario;
     width: 85vw !important;
+    @media #{$desktop}{
+            width: 30vw;
+    }
 }
+
 .header-menu-izq{
     h2{
         color: $color-primario;
@@ -84,6 +88,7 @@
 .menu-derecha{
     @extend .menu;
     right: 5px;
+
 }
 .header-menu-der{
     display: flex;

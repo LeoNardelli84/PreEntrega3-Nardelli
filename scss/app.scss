@@ -13,6 +13,10 @@
 @import 'utilities/resets.scss';
 @import 'utilities/typography.scss';
 @import 'utilities/colors.scss';
+@import 'utilities/variables.scss';
+
+//mediaqueries
+@import 'media/_mediaqueries.scss';
 
 //layouts
 @import 'layouts/footer.scss';
@@ -24,3 +28,4 @@
 @import 'pages/librerias.scss';
 @import 'pages/estudios.scss';
 @import 'pages/contacto.scss';
+

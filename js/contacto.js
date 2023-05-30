@@ -6,9 +6,17 @@ $("#btn-enviar").click(function(e){
  
     
     if (nombre == "") {
-        alert("por favor escribe tu nombre")
+        Swal.fire({
+            title: "Escribe tu nombre",
+            confirmButtonColor: '#2C8FB6',
+            confirmButtonText: 'Ok'
+        })
     } else if (comentarios == ""){
-        alert(" Por favor escribe un comentario")
+        Swal.fire({
+            title: "No te olvides de los comentarios",
+            confirmButtonColor: '#2C8FB6',
+            confirmButtonText: 'Ok'
+        })
     } else{
       
         whatsapp += "Hola!%20mi%20nombre%20es%20" + nombre + ",%20" + comentarios 
