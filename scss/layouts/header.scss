@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-duration: 3s;
 }
 
 // -- Menu hecho con bootstrap --
@@ -99,11 +100,13 @@
     align-items: center;
     flex-direction: column;
     .video{
+        display: flex;
+        justify-content: center;
         width: 100%;
-        video{
-            width: 280px;
-            
-        }
+        box-shadow: 11px 18px 35px -7px  $color-primario;
+        video{ 
+            width: 300px;
+         }
     }
     p{
         height: 220px;

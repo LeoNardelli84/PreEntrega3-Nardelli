@@ -1,3 +1,4 @@
+
 .tarjetas-librerias{
     width: 100vw;
     p{
@@ -5,6 +6,7 @@
     }
 }
 .tarjeta{
+    
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -16,9 +18,13 @@
     }
     img{
         width: 200px;
+        @include transparente;
     }
     button{
         margin: 10px;
         @include button-stile;
+    }
+    &:last-child{
+        height: 350px;
     }
 }
