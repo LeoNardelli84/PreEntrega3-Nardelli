@@ -70,7 +70,7 @@ p {
   border-radius: 50%;
   border: 10px solid #2C8FB6;
   box-shadow: 7px 7px 15px -5px #2E2E3a;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .menu, .menu-derecha, .menu-izquierda {
