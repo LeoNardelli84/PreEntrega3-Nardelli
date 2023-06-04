@@ -55,12 +55,8 @@ function descripcion(){
 
 // -- eventos click --
 $(".menu-izquierda").click(function(){
-    $(".nombre-usuario").html(localStorage.getItem('nombre').toUpperCase());
+    $(".nombre-usuario").html(localStorage.getItem('nombre'));
 });
-
-$(".ul-nav-menu>li").click(function(){
-});
-
 
 $("#comenzar").click(function(){
     $(location).attr('href', './pages/librerias.html')

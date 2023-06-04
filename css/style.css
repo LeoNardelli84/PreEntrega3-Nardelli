@@ -19,6 +19,10 @@ ul li a {
   color: #2C8FB6;
 }
 
+section {
+  animation-duration: 2s;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto";
 }
@@ -58,6 +62,7 @@ p {
 
 .redes img {
   width: 50px;
+  height: 50px;
   margin: 20px !important;
 }
 
@@ -162,6 +167,7 @@ p {
 }
 .header-menu-der img {
   width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 
@@ -361,6 +367,10 @@ form {
 
 .barra-8 {
   animation-duration: 5.6551724138s;
+}
+
+.cabecera {
+  padding: 6px 20px;
 }
 
 .timeline {
