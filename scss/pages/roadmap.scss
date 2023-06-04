@@ -1,0 +1,121 @@
+.timeline{
+    @media #{$mobile}{
+        margin: 50px auto;
+        &::after{
+            left: 31px !important;
+        }
+    }
+    position: relative;
+    max-width: 1200px;
+    &::after{
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 100%;
+        background: $color-primario;
+        top: 0;
+        left: 50%;
+        margin-left: -3px;
+        z-index: -1;
+        animation: moveline 6s linear forwards;
+    }
+}
+.container-timeline{
+
+    @for $i from 1 through 6{
+     &:nth-child(#{$i}) {
+         animation-delay:($i - 1) + s;
+     }  
+    }
+    @media #{$mobile}{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+
+    }
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+    margin-bottom: 25px;
+    img{
+        position: absolute;
+        width: 50px;
+        right: -20px;
+        top: 32px;
+        z-index: 10;
+    }
+}
+.text-box{
+    @media #{$mobile}{
+        font-size: 13px;
+        small{
+            margin-bottom: 10px;
+        }
+    }
+    padding: 20px 30px;
+    background: $color-secundario;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    h2{
+        font-weight: 600;
+    }
+    small{
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+}
+.left-container{
+    @media #{$mobile}{
+        left: 0;
+        img{
+            left: 10px !important;
+        }
+    }
+    left: 0;
+}
+.right-container{
+    @media #{$mobile}{
+        left: 0;
+        img{
+            left: 10px !important;
+        }
+    }
+    left: 50%;
+    img{
+        left: -20px;
+    }
+}
+%container-arrow{
+    
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.left-container-arrow{
+    @media #{$mobile}{
+        border-right: 15px solid $color-secundario;
+        border-left: 0;
+        left: -15px;
+    }
+    @extend %container-arrow;
+    border-left: 15px solid $color-secundario;
+    right: -15px;
+}
+.right-container-arrow{
+    @media #{$mobile}{
+        border-right: 15px solid $color-secundario;
+        border-left: 0;
+        left: -15px;
+    }
+    @extend %container-arrow;
+    border-right: 15px solid $color-secundario;
+    left: -15px; 
+}
+

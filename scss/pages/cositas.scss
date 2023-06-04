@@ -11,28 +11,38 @@
     padding: 30px;
     
 }
-.barra-1 {
-    animation-duration: 3s;
+@for $i from 1 through 8{
+    .barra-#{$i}{
+        animation-duration: (($i + .6) / 1.5 ) + s;
+    }
 }
+//Reemplace todo ese codigo de abajo por un bucle for
+//le sumo a $i 0.6 y lo divido por 1.5 para
+//crear esa animacion de disminucion de velocidad
+//POR SUPUESTO ESTE CODIGO COMENTADO SERA BORRADO
+//ES SOLO PARA QUE PUEDAN VER LA MEJORA
+// .barra-1 {
+//     animation-duration: 3s;
+// }
 
-.barra-2{
-    animation-duration: 3.1s;
-}
-.barra-3{
-    animation-duration: 3.2s;
-}
-.barra-4{
-    animation-duration: 3.3s;
-}
-.barra-5{
-    animation-duration: 3.4s;
-}
-.barra-6{
-    animation-duration: 3.5s;
-}
-.barra-7{
-    animation-duration: 3.6s;
-}
-.barra-8{
-    animation-duration: 3.7s;
-}
+// .barra-2{
+//     animation-duration: 3.1s;
+// }
+// .barra-3{
+//     animation-duration: 3.2s;
+// }
+// .barra-4{
+//     animation-duration: 3.3s;
+// }
+// .barra-5{
+//     animation-duration: 3.4s;
+// }
+// .barra-6{
+//     animation-duration: 3.5s;
+// }
+// .barra-7{
+//     animation-duration: 3.6s;
+// }
+// .barra-8{
+//     animation-duration: 3.7s;
+// }

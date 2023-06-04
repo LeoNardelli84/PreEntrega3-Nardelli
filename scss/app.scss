@@ -14,9 +14,7 @@
 @import 'utilities/typography.scss';
 @import 'utilities/colors.scss';
 @import 'utilities/variables.scss';
-
-//mediaqueries
-@import 'media/_mediaqueries.scss';
+@import 'utilities/keyframes.scss';
 
 //layouts
 @import 'layouts/footer.scss';
@@ -29,4 +27,5 @@
 @import 'pages/estudios.scss';
 @import 'pages/contacto.scss';
 @import 'pages/cositas.scss';
+@import 'pages/roadmap.scss';
 
