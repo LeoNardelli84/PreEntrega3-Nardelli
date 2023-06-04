@@ -293,11 +293,13 @@ form {
 .form input {
   margin-bottom: 10px;
   text-align: center;
+  font-family: "Open Sans";
 }
 
-text-area {
+#comentarios {
   margin-bottom: 10px;
-  text-align: center;
+  text-align: center !important;
+  font-family: "Open Sans";
 }
 
 #btn-enviar {
@@ -305,7 +307,9 @@ text-area {
   width: 150px;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: #89a3ae;
+  background-color: #2C8FB6;
+  font-family: "Open sans";
+  color: white;
 }
 
 .progress {
@@ -322,35 +326,35 @@ text-area {
 }
 
 .barra-1 {
-  animation-duration: 1.0666666667s;
+  animation-duration: 1.3223140496s;
 }
 
 .barra-2 {
-  animation-duration: 1.7333333333s;
+  animation-duration: 2.1487603306s;
 }
 
 .barra-3 {
-  animation-duration: 2.4s;
+  animation-duration: 2.9752066116s;
 }
 
 .barra-4 {
-  animation-duration: 3.0666666667s;
+  animation-duration: 3.8016528926s;
 }
 
 .barra-5 {
-  animation-duration: 3.7333333333s;
+  animation-duration: 4.6280991736s;
 }
 
 .barra-6 {
-  animation-duration: 4.4s;
+  animation-duration: 5.4545454545s;
 }
 
 .barra-7 {
-  animation-duration: 5.0666666667s;
+  animation-duration: 6.2809917355s;
 }
 
 .barra-8 {
-  animation-duration: 5.7333333333s;
+  animation-duration: 7.1074380165s;
 }
 
 .timeline {

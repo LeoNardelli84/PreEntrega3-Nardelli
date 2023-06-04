@@ -14,12 +14,15 @@ form{
     padding: 10px !important;
     input{
         margin-bottom: 10px;
-        text-align: center; 
+        text-align: center;
+        font-family: 'Open Sans'; 
     }
 }
-text-area{
+#comentarios{
     margin-bottom: 10px;
-    text-align: center;
+    text-align: center !important;
+    font-family: 'Open Sans';
+    
 }
 
 #btn-enviar{
@@ -27,6 +30,8 @@ text-area{
     width: 150px;
     margin-top: 50px;
     margin-bottom: 50px;  
-    background-color: $color-terciario; 
+    background-color: $color-primario; 
+    font-family: "Open sans";
+    color: white;
     
 }
