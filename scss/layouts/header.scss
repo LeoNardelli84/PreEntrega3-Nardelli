@@ -73,6 +73,9 @@
     @extend .menu;
     left: 5px;  
     z-index: 1;
+    button{
+        padding: 6px 6px !important;
+    }
 }
 
 .nav-menu{
@@ -94,6 +97,9 @@
 .menu-derecha{
     @extend .menu;
     right: 5px;
+    button{
+        padding: 6px 6px !important;
+    }
 
 }
 .header-menu-der{

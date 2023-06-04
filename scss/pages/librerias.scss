@@ -20,7 +20,7 @@
     }
     button{
         margin: 10px;
-        @include button-stile;
+        @include button-style;
     }
     &:last-child{
         height: 350px;

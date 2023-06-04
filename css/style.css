@@ -131,6 +131,9 @@ p {
   left: 5px;
   z-index: 1;
 }
+.menu-izquierda button {
+  padding: 6px 6px !important;
+}
 
 .nav-menu ul {
   margin-top: 30px;
@@ -146,6 +149,9 @@ p {
 
 .menu-derecha {
   right: 5px;
+}
+.menu-derecha button {
+  padding: 6px 6px !important;
 }
 
 .header-menu-der {
@@ -205,7 +211,7 @@ p {
 }
 
 #comenzar {
-  background-color: #89a3ae;
+  background-color: #2C8FB6;
   color: white;
 }
 
@@ -238,7 +244,7 @@ p {
 }
 .tarjeta button {
   margin: 10px;
-  background-color: #89a3ae;
+  background-color: #2C8FB6;
   color: white;
 }
 .tarjeta:last-child {
@@ -326,35 +332,35 @@ form {
 }
 
 .barra-1 {
-  animation-duration: 1.3223140496s;
+  animation-duration: 0.8275862069s;
 }
 
 .barra-2 {
-  animation-duration: 2.1487603306s;
+  animation-duration: 1.5172413793s;
 }
 
 .barra-3 {
-  animation-duration: 2.9752066116s;
+  animation-duration: 2.2068965517s;
 }
 
 .barra-4 {
-  animation-duration: 3.8016528926s;
+  animation-duration: 2.8965517241s;
 }
 
 .barra-5 {
-  animation-duration: 4.6280991736s;
+  animation-duration: 3.5862068966s;
 }
 
 .barra-6 {
-  animation-duration: 5.4545454545s;
+  animation-duration: 4.275862069s;
 }
 
 .barra-7 {
-  animation-duration: 6.2809917355s;
+  animation-duration: 4.9655172414s;
 }
 
 .barra-8 {
-  animation-duration: 7.1074380165s;
+  animation-duration: 5.6551724138s;
 }
 
 .timeline {

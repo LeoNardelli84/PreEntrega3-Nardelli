@@ -21,8 +21,8 @@
     align-items: center;
     flex-direction: column;
 }
+
 #comenzar{
-    @include button-stile;
-    
+    @include button-style;
 }
 

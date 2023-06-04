@@ -12,11 +12,11 @@
 }
 @for $i from 1 through 8{
     .barra-#{$i}{
-        animation-duration: calc(($i + .6 ) / 1.21) + s;
+        animation-duration: calc(($i + .2 ) / 1.45) + s;
     }
 }
 //Reemplace todo ese codigo de abajo por un bucle for
-//le sumo a $i 0.6 y lo divido por 1.21 (sass me recomendo no utilizar / para 
+//le sumo a $i 0.2 y lo divido por 1.45 (sass me recomendo no utilizar / para 
 //dividir porque "is deprecated") para crear esa animacion de disminucion de velocidad
 //POR SUPUESTO ESTE CODIGO COMENTADO SERA BORRADO
 //ES SOLO PARA QUE PUEDAN VER LA MEJORA
