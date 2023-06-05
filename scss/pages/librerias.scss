@@ -1,5 +1,14 @@
 .tarjetas-librerias{
+    @media #{$desktop}{
+        width: 60vw;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
     width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     p{
         padding: 20px;
     }

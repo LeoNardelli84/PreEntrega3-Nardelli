@@ -8,14 +8,21 @@
     color: $color-terciario;
 }
 .descripcion{
+    min-width: 400px;
+    min-height: 500px;
     padding: 15px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
     p{
         height: 170px;
     }
 }
 .presentacion{
-    height: 70vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,5 +31,6 @@
 
 #comenzar{
     @include button-style;
+    max-width: 250px;
 }
 

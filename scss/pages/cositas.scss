@@ -4,15 +4,27 @@
     height: 35px !important;
 }
 .progress-bar{
-    background-color: $color-terciario;
+    background-color: $color-primario;
 }
 
 .barras{
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 @for $i from 1 through 8{
     .barra-#{$i}{
+        max-width: 500px;
         animation-duration: calc(($i + .2 ) / 1.45) + s;
+        @media #{$desktop}{
+            width: 50%;
+        }
+        @media #{$mobile}{
+            width: 90%;
+        }
+
     }
 }
 //Reemplace todo ese codigo de abajo por un bucle for

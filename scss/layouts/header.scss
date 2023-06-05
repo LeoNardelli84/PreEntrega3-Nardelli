@@ -52,6 +52,7 @@
 }
 .offcanvas-start .offcanvas-end{
     background-color: $color-secundario;
+    animation-duration: 1s;
     width: 85vw;
     @media #{$desktop}{
             width: 30vw;
@@ -107,6 +108,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    h3{
+        color: $color-primario;
+    }
     img{
         width: 100px;
         height: 100px;
@@ -122,10 +126,11 @@
         justify-content: center;
         width: 100%;
         video{ 
-            width: 300px;
+            width: 270px;
          }
     }
     p{
-        height: 220px;
+        height: 180px;
+        padding: 6px 12px;
     }
 }
