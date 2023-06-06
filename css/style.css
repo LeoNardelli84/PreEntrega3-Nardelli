@@ -23,6 +23,10 @@ section {
   animation-duration: 2s;
 }
 
+h1 {
+  color: #2C8FB6;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto";
 }
@@ -90,6 +94,7 @@ p {
 .img-header img {
   background-color: #2C8FB6;
   width: 180px;
+  height: 180px;
   border-radius: 50%;
   border: 10px solid #2C8FB6;
   box-shadow: 7px 7px 15px -5px #2E2E3a;
@@ -207,7 +212,7 @@ p {
 
 .descripcion {
   min-width: 400px;
-  min-height: 500px;
+  min-height: 250px;
   padding: 15px;
   text-align: center;
   display: flex;
@@ -220,7 +225,7 @@ p {
 }
 
 .presentacion {
-  height: 80vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -489,6 +494,8 @@ form {
 
 .timeline {
   position: relative;
+  left: 50%;
+  transform: translate(-50%);
   max-width: 1200px;
 }
 @media (max-width: 600px) {
@@ -509,7 +516,7 @@ form {
   left: 50%;
   margin-left: -3px;
   z-index: -1;
-  animation: moveline 6s linear forwards;
+  animation: moveline 7s linear forwards;
 }
 
 .container-timeline {
@@ -537,6 +544,9 @@ form {
 }
 .container-timeline:nth-child(6) {
   animation-delay: 5s;
+}
+.container-timeline:nth-child(7) {
+  animation-delay: 6s;
 }
 @media (max-width: 600px) {
   .container-timeline {

@@ -27,8 +27,8 @@ $(".progress").click(function(){
       case 'Github':
         barra.css('width', '80%')
         break;
-      case 'Linux':
-        barra.css('width', '45%')
+      case 'SASS':
+        barra.css('width', '70%')
         break;
     }
   

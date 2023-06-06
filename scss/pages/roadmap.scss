@@ -9,6 +9,8 @@
         }
     }
     position: relative;
+    left: 50%;
+    transform: translate(-50%);
     max-width: 1200px;
     &::after{
         content: '';
@@ -20,12 +22,12 @@
         left: 50%;
         margin-left: -3px;
         z-index: -1;
-        animation: moveline 6s linear forwards;
+        animation: moveline 7s linear forwards;
     }
 }
 .container-timeline{
 
-    @for $i from 1 through 6{
+    @for $i from 1 through 7{
      &:nth-child(#{$i}) {
          animation-delay:($i - 1) + s;
      }  

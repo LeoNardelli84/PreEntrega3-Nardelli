@@ -3,9 +3,13 @@
 // Open sans font-family: 'Open Sans'
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+h1{
+    color: $color-primario;
+}
 h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto';
 }
+
 
 p{
     font-family: 'Open Sans';
