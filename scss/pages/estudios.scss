@@ -1,27 +1,33 @@
-@import '../utilities/variables.scss';
+.bi-circle-fill{
+    color: #01cd66;
+}
 .main-estudios{
     padding: 20px;
+    p{
+        padding: 5px 30px;
+        margin: 0px;
+    }
 }
-//No se por que no me toma los @media para desktop
-// REVISAR
-.certificados{
+.auditorias{
+    @media #{$mobile}{
+        display: inline-block;
+    }
+    margin-top: 50px;
     display: flex;
+    justify-content: space-around;
+
+}
+.auditoria-mobile,
+.auditoria-desktop{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    @media #{$desktop}{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-    }
     img{
-        margin-right: 20px;
-        margin-bottom: 20px;
-        box-shadow: 10px 5px 10px;
-        width: 300px;
-        @media #{$desktop}{
-            width: 500px !important;
+        @media #{$mobile}{
+            width: 100%;
         }
+        width: 80%;
     }
 }
