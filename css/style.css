@@ -296,8 +296,17 @@ p {
   padding: 20px;
 }
 .main-estudios p {
-  padding: 5px 30px;
-  margin: 0px;
+  padding: 5px 60px;
+  margin: 5px;
+}
+@media (max-width: 600px) {
+  .main-estudios p {
+    text-align: justify;
+    padding: 0px 25px;
+  }
+}
+.main-estudios h1 {
+  margin-bottom: 30px;
 }
 
 .auditorias {
