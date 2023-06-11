@@ -12,6 +12,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    h4{
+        margin-bottom: 60px;
+        
+    }
 
 }
 @for $i from 1 through 8{

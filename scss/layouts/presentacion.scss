@@ -10,6 +10,7 @@
 .descripcion{
     min-width: 400px;
     min-height: 250px;
+    max-width: 600px;
     padding: 15px;
     text-align: center;
     display: flex;
@@ -22,7 +23,7 @@
     }
 }
 .presentacion{
-    height: 50vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;

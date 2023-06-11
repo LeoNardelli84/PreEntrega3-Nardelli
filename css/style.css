@@ -216,6 +216,7 @@ p {
 .descripcion {
   min-width: 400px;
   min-height: 250px;
+  max-width: 600px;
   padding: 15px;
   text-align: center;
   display: flex;
@@ -228,7 +229,7 @@ p {
 }
 
 .presentacion {
-  height: 50vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -390,6 +391,11 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+.barras h4 {
+  margin-bottom: 60px;
 }
 
 .barra-1 {
